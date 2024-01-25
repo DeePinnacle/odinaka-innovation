@@ -10,7 +10,7 @@ const Aboutpage = () => {
       <p className='text-center text-blue-500 lg:text-2xl'> Who We Are</p>
       <div className='about-wrapper my-3 p-2 md:flex md:flex-row-reverse md:gap-3 lg:w-11/12 lg:mx-auto lg:mt-10'>
         {/* text div starts here  */}
-        <div className='bg-slate-50 p-2 my-3 h-96 rounded-lg md:w-full lg:py-5'>
+        <div className='bg-slate-50 p-2 my-3 min-h-28 rounded-lg md:w-full lg:py-5'>
           <p className='text-2xl font-bold text-blue-500'>Odinaka <span className='text-black'>Innovation</span></p>
           <p className='max-w-prose lg:mb-4'>Welcome to your trusted partner in mobility and logistics solutions. With a passion for excellence and a commitment to reliability, we strive to redefine the standards of transportation services.</p>
           <p className='max-w-prose lg:mb-4'>At Odinaka Innovation, we understand the importance of seamless transportation in today&apos;s fast-paced world. Whether corporate events, airport transfers, or special occasions, we tailor our services to meet your unique needs. Our customer-centric approach allows us to deliver a personalized and efficient experience for every client.</p>
