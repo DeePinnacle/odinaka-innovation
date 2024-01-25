@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .Navbar-list {
+    text-align: center;
+  }
+  .Navbar-list .list{
+    margin: 10px;
+    padding: 10px;
+    transition: all .5s linear;
+  }
+  .Navbar-list .list .anchor {
+    display: block; 
+    @apply text-slate-400
+  }
+  .Navbar-list .list:hover {
+    @apply bg-blue-500 text-blue-100;
+    border-radius: 8px;
+  }
+  .nav-stick{
+    position:sticky;
+    top: 0;
+  }       
+  .hero-btn, .hero-btn-2{
+    transition: all .4s ease-in;
+  }
+  .hero-btn:hover{
+    @apply bg-blue-500 text-white;
+  }
+  .hero-btn-2:hover{
+    @apply bg-transparent text-blue-500 text-blue-500 border border-blue-500;
+  }
+  .mt-84{
+    margin-top: 92px;
+  }
+  .stars-wrapper FaStar{
+    color: 'red';
+  }
+  .social-media-container .font-style {
+    @apply text-white text-xl
+  }
+  .btn-wrapper{
+    @apply my-4 relative p-5 flex flex-row gap-5 justify-center items-center
+  }
+  /* .btn-wrapper .swiper-button-prev {
+    left: 40% !important;
+    transform: translateX(-40%) !important; 
+   } 
+  .btn-wrapper .swiper-button-next {
+    right: 40% !important; 
+    transform: translateX(-40%) !important
+  } */
+  .swiper-arrow{
+    @apply p-2 bg-blue-200 rounded-full !w-14 !h-14;
+  }
+  .swiper-arrow::after{
+    content:'' !important;
+  }
+  .swiper-pagination{
+    position: relative;
+    bottom: 0% !important;
+    padding: 5px;
+  }
+  .swiper-pagination .swiper-pagination-bullet{
+    @apply !bg-blue-500;
+  }
+  .swiper-pagination .swiper-pagination-bullet-active{
+    @apply !bg-blue-500;
+  }
+}
