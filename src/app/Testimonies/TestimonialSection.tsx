@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 'use client'
 import React from 'react'
 import { StarIcon, ArrowLeftIcon, ArrowRightIcon } from  '@heroicons/react/24/outline';
@@ -224,7 +224,4 @@ const TestimonySection = () => {
   )
 }
 
-export default TestimonySection
-=======
-
->>>>>>> f5c88854283717b70efcdba15c6ad99e436c6a68
+export default TestimonySection;
